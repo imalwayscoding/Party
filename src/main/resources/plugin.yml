@@ -12,6 +12,9 @@ commands:
   p:
     description: equals of
     usage: /<command> <생성|삭제|목록|탈퇴|'채팅'|"초대"|"추방"|"위임"> ["플레이어"|'메세지']
-  pc:
+  chatchannel:
+    description: change chat server to party.
+    usage: /<command>
+  cc:
     description: change chat server to party.
     usage: /<command>
