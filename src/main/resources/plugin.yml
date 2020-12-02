@@ -1,0 +1,17 @@
+name: Party
+main: com.github.imalwayscoding.party.PartyPlugin
+version: 1.0
+api-version: 1.16
+depend:
+  - Kotlin
+
+commands:
+  파티:
+    description: command of party
+    usage: /<command> <생성|삭제|목록|탈퇴|'채팅'|"초대"|"추방"|"위임"> ["플레이어"|'메세지']
+  p:
+    description: equals of
+    usage: /<command> <생성|삭제|목록|탈퇴|'채팅'|"초대"|"추방"|"위임"> ["플레이어"|'메세지']
+  pc:
+    description: change chat server to party.
+    usage: /<command>
